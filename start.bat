@@ -269,7 +269,7 @@ echo.
 echo Working... Please wait.
 echo.
 
-py super_cutter.py --do_trim !DO_TRIM! --t_start !TRIM_START! --t_end !TRIM_END! --do_split !DO_SPLIT! --do_cut !DO_CUT! --sens !SENS! --area !AREA_LIMIT! --ui !UI_LIMIT! --size !SIZE_LIMIT! --do_img !DO_IMG! --grid !GRID_COUNT! --screens !SCREENS_COUNT! --blur !BLUR_AMT! --do_prev !DO_PREV! --prev !PREV_SEC! --do_rename !DO_RENAME! --genre "!GENRE!" --models "!MODELS!" --do_wipe !DO_WIPE! --mode "!MODE!" --target "!TARGET!"
+py lossless_cutter.py --do_trim !DO_TRIM! --t_start !TRIM_START! --t_end !TRIM_END! --do_split !DO_SPLIT! --do_cut !DO_CUT! --sens !SENS! --area !AREA_LIMIT! --ui !UI_LIMIT! --size !SIZE_LIMIT! --do_img !DO_IMG! --grid !GRID_COUNT! --screens !SCREENS_COUNT! --blur !BLUR_AMT! --do_prev !DO_PREV! --prev !PREV_SEC! --do_rename !DO_RENAME! --genre "!GENRE!" --models "!MODELS!" --do_wipe !DO_WIPE! --mode "!MODE!" --target "!TARGET!"
 
 if %errorlevel% neq 0 (
     echo.
