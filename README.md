@@ -27,12 +27,12 @@ This tool operates directly on the video stream level. By calculating and cuttin
 ### 2. Live Processing State
 
 > Demonstrates the non-blocking background thread in action, parsing media streams and executing the stream-copy commands instantly without freezing the UI.
-<img src="processing.png" alt="Processing Screenshot" width="380"/>
+<img src="processing.png" alt="Processing Screenshot" width="570"/>
 
 ### 3. Output Generation & Thresholding
 
 > Shows the final generated directory. Notice how a massive batch of source files is neatly packed into seamless output volumes exactly under the user's requested size limit.
-<img src="output.png" alt="Output Screenshot" width="380"/>
+<img src="output.png" alt="Output Screenshot" width="570"/>
 
 ## 🚀 Technical Highlights
 
