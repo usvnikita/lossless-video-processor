@@ -13,7 +13,18 @@ This tool operates directly on the video stream level. By calculating and cuttin
 ### 1. Main Configuration Interface
 
 > The primary dashboard where users can load directories, set maximum output file size thresholds, and arrange the merge order.
-> *([Add your image here: e.g., `![Main Interface](assets/screenshot_1_main.png)`])*
+<table>
+    <tr>
+      <td align="center">
+        <img src="main.png" alt="Main Page" width="380"/>
+        <br>
+      </td>
+      <td align="center">
+        <img src="settings.png" alt="Edit Settings" width="380"/>
+        <br>
+      </td>
+    </tr>
+  </table>
 
 ### 2. Live Processing State
 
