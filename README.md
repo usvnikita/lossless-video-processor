@@ -17,11 +17,9 @@ This tool operates directly on the video stream level. By calculating and cuttin
     <tr>
       <td align="center">
         <img src="main.png" alt="Main Page" width="380"/>
-        <br>
       </td>
       <td align="center">
         <img src="settings.png" alt="Edit Settings" width="380"/>
-        <br>
       </td>
     </tr>
   </table>
@@ -29,12 +27,12 @@ This tool operates directly on the video stream level. By calculating and cuttin
 ### 2. Live Processing State
 
 > Demonstrates the non-blocking background thread in action, parsing media streams and executing the stream-copy commands instantly without freezing the UI.
-> *([Add your image here: e.g., `![Processing State](assets/screenshot_2_processing.png)`])*
+<img src="processing.png" alt="Processing Screenshot" width="380"/>
 
 ### 3. Output Generation & Thresholding
 
 > Shows the final generated directory. Notice how a massive batch of source files is neatly packed into seamless output volumes exactly under the user's requested size limit.
-> *([Add your image here: e.g., `![Output Result](assets/screenshot_3_output.png)`])*
+<img src="output.png" alt="Output Screenshot" width="380"/>
 
 ## 🚀 Technical Highlights
 
@@ -50,7 +48,3 @@ This project was built with a strict focus on resource optimization, I/O efficie
 * **Language:** Python 3.10+
 * **Core Libraries:** `os`, `subprocess`, `threading`, `json`
 * **External Dependencies:** `FFmpeg` (must be installed and added to system PATH)
-
-## 🧠 Engineering Philosophy
-
-I built this tool because I believe software should respect the user's hardware. Instead of throwing raw compute power at a simple joining task, this architecture relies on a deep understanding of video container formats to manipulate the data smartly. It reduces a process that typically takes hours and 100% CPU utilization down to seconds and minimal memory overhead.
